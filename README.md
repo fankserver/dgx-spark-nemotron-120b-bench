@@ -4,7 +4,7 @@ Single-stream inference benchmarks for **NVIDIA Nemotron-3-Super-120B-A12B** (hy
 Mamba-2 + attention + MoE, NVFP4) served with **vLLM + MTP speculative decoding** on a single
 **NVIDIA GB10 / DGX Spark**. Measured with the standard
 **[llama-benchy](https://github.com/eugr/llama-benchy)** tool. Sister study to
-[dgx-spark-qwen3.5-122b-bench](https://github.com/fank/dgx-spark-qwen3.5-122b-bench) — same
+[dgx-spark-qwen3.5-122b-bench](https://github.com/fankserver/dgx-spark-qwen3.5-122b-bench) — same
 methodology, so the two models are directly comparable.
 
 **Headline:** prefill/TTFT-bound at agent context sizes (TTFT ≈ 1.6 s @0 → 25 s @16k → 50 s @32k).
